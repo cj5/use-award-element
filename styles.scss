@@ -1,0 +1,120 @@
+/*///////////////////////////////////////*/
+/* START Co-brand Hotel Redemption styles */
+$color-mr: #0075d5;
+$color-rc: #1c1c1c;
+$color-spg-anchors: #3b68b3;
+$color-spg: #4f2e65;
+$color-spg-anchors: #8754c9;
+$listCircleDiameter: 34px;
+
+.use-award-container {
+  margin: 50px 0 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.use-award {
+  width: 700px;
+}
+#rc {
+  .use-award-header {
+    background-color: $color-rc;
+  }
+  .list-number {
+    color: $color-rc;  
+  }
+  a {
+    color: $color-rc-anchors;  
+  }
+}
+#spg {
+  .use-award-header {
+    background-color: $color-spg;
+  }
+  #spg .list-number {
+    color: $color-spg;
+  }
+  a {
+    color: $color-spg-anchors;
+  }
+}
+.use-award-header {
+  background-color: $color-mr;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  h3 {
+    padding: 14px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    font-family: $font-stack-bold;
+    margin-bottom: 0;
+  }
+}
+.use-award-body {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  ul {
+    padding: 0 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    margin-bottom: 20px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+  }
+  li.note {
+    line-height: 16px;
+    margin-bottom: 30px;
+  }
+}
+.list-number {  
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 20px;  
+  color: $color-mr;
+  min-width: $listCircleDiameter;
+  width: $listCircleDiameter;
+  height: $listCircleDiameter;
+  line-height: $listCircleDiameter;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+}
+.list-number.fill {
+  background-color: transparent;
+  color: transparent;
+  min-width: $listCircleDiameter;
+  display: inline-block;
+}
+.tiniertype {
+  font-size: .8rem !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .use-award-body ul li {
+    flex-direction: column;
+  }
+  .use-award-body ul {
+    text-align: center;
+  }
+  .list-number {
+    margin: 0 auto 10px;
+  }
+  .list-number.fill {
+    display: none;
+  }
+  li.note {
+    margin-top: 20px;
+  }
+}
+/* END Co-brand Hotel Redemption styles */
+/*/////////////////////////////////////*/
