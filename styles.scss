@@ -5,7 +5,7 @@ $color-rc: #1c1c1c;
 $color-spg-anchors: #3b68b3;
 $color-spg: #4f2e65;
 $color-spg-anchors: #8754c9;
-$listCircleDiameter: 34px;
+$listCircleDiameter: 40px;
 
 .use-award-container {
   margin: 50px 0 30px;
@@ -44,8 +44,8 @@ $listCircleDiameter: 34px;
   width: 100%;
   text-align: center;
   h3 {
-    padding: 14px 0;
-    font-size: 20px;
+    padding: 18px 0;
+    font-size: 22px;
     text-transform: uppercase;
     background: transparent;
     color: #fff;
@@ -87,7 +87,8 @@ $listCircleDiameter: 34px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
-  font-size: 18px;
+  font-size: 22px;
+  font-family: $font-stack-light;
 }
 .list-number.fill {
   background-color: transparent;
