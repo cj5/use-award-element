@@ -81,6 +81,9 @@ ul {
   table-layout: fixed;
   width: 100%;
 }
+#tableContainer #properties_length select {
+  margin-top: 10px;
+}
 #tableContainer th {
   background-color: #f4f4f4;
 }
@@ -104,13 +107,13 @@ ul {
 }
 #tableContainer td:first-of-type {
   text-align: left;
-  width: 200px;
 }
 #tableContainer th:first-of-type {
   width: 200px;
   min-width: 200px;
+  text-align: left;
 }
-#tableContainer th.sorting, #tableContainer th {
+#tableContainer th {
   text-align: center;
 }
 #tableContainer th:last-of-type, #tableContainer td:last-of-type {
